@@ -1,0 +1,68 @@
+/* BookDetailPage.css */
+.news-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  max-width: none;
+  overflow: visible;
+}
+
+.news-details h2 {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 34px;
+}
+
+.news-details .news-cover {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.back-button {
+  background-color: #008080;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.news-details img {
+  max-width: 250px;
+  max-height: 300px;
+}
+
+.news-details .details-container {
+  flex-grow: 1;
+  text-align: justify;
+  overflow: visible;
+  max-width: none;
+  width: 100%;
+}
+
+.news-details .details-container p {
+  margin: 10px 0;
+  display: flex;
+  align-items: baseline;
+  overflow: visible;
+  width: 1000;
+}
+
+.news-details .details-container span {
+  min-width: 120px; /* Adjust the minimum width as needed */
+  margin-right: 10px;
+  overflow: visible;
+  max-width: none; /* Adjust the right margin as needed */
+}
+
+.news-details .details-container a {
+  color: #007bff;
+  text-decoration: none;
+}
